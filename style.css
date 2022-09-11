@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    text-align: left;
+}
+
+h3 {
+    justify-content: left;
+}
+
+.About {
+    justify-content: left;
+}
+
+.work {
+    display: flex;
+    flex-direction: row;
+    border: 4px solid 
+}
