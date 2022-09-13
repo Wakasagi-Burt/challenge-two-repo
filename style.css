@@ -1,22 +1,105 @@
 * {
-    box-sizing: border-box;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  flex-direction: row;
+  font-size: 25px;
+  margin: 0px;
+}
+
+header {
+  position: absolute;
+  text-align: right;
+  text-shadow: 3px 2px 5px grey;
+  padding-left: 20px;
+}
+
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 80px;
+  text-decoration: underline;
+  background-color: beige;
+  height: 100px;
+  padding: 10px 10px 20px 10px;
 }
 
 h2 {
-    text-align: left;
+  text-shadow: 3px 2px 2px rgb(125, 134, 173);
 }
 
 h3 {
-    justify-content: left;
+  text-shadow: 3px 2px 5px ghostwhite;
+  font-size: 50px;
+  text-decoration: underline;
 }
 
-.About {
-    justify-content: left;
+nav a {
+  color: black;
+  background-color: beige;
+  border: 3px solid black;
+  padding: 8px;
+  text-decoration: none;
+  text-align: right;
+  font-size: 30px;
 }
 
-.work {
-    display: flex;
-    flex-direction: row;
-    border: 4px solid 
+aside {
+  flex: 25%;
+  text-align: right;
+  border-right: 10px solid;
+  margin-right: 91%;
+  margin-left: 10px;
+  padding-right: 30px;
+  font-size: 35px;
+  height: 300px;
+  width: 200px;
+}
+
+article {
+  position: absolute;
+  top: 40%;
+  bottom: 5%;
+  height: 150px;
+  width: 600px;
+  text-align: center;
+  margin-left: 20%;
+  background-color: beige;
+}
+
+#headerimg {
+  height: 300px;
+  width: 100%;
+  border: 10px solid;
+  border-top: 10px solid;
+  border-bottom: 0;
+}
+
+footer {
+  text-align: center;
+  background-color: rgb(125, 134, 173);
+  border: 10px solid;
+  border-top: 0;
+  padding-top: 15px;
+  margin-top: 20px;
+  text-shadow: 3px 2px 5px ghostwhite;
+}
+
+footer nav {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  background-color: rgb(125, 134, 173);
+  text-shadow: 3px 2px 5px grey;
+  padding-left: 20px;
+  padding-bottom: 30px;
+  margin-bottom: 0px;
+}
+
+section {
+  position: absolute;
+  background-color: beige;
+  width: auto;
+  height: 200px;
 }
